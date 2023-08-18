@@ -1,0 +1,18 @@
+{
+  "Options":{
+    "Light": "淺色主題",
+    "Dark": "深色主題 ",
+    "System": "系統預設"
+  },
+  "Nav": {
+    "main": "主頁",
+    "search": "搜尋機構",
+    "volunteer": "義工專頁",
+    "blog": "Blog",
+    "calculator": "安老計算機",
+    "shop": "商店",
+    "login": "註冊/登入",
+    "user": "組織用戶",
+    "help": "幫助"
+  }
+}
