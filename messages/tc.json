@@ -14,5 +14,12 @@
     "login": "註冊/登入",
     "user": "組織用戶",
     "help": "幫助"
+  },
+  "Search":{
+    "activity" : "活動",
+    "service" : "服務",
+    "unit" : "單位",
+    "organization" : "機構",
+    "search-placeholder" : "搜尋"
   }
 }

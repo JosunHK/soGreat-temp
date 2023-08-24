@@ -1,9 +1,9 @@
 'use client'
 
 import Link from 'next-intl/link';
-import { Button } from '#/ui/ui/button';
+import { Button } from '#/ui/shad-ui/button';
 import { useTranslations } from 'next-intl';
-import { topNav } from '#/lib/nav';
+import { topNav } from '#/lib/menu';
 
 export function TopLink(){
 const t = useTranslations('Nav');

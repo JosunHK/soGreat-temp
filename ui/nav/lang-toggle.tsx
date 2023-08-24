@@ -3,13 +3,13 @@
 import * as React from "react"
 import { Languages } from "lucide-react"
 import { useTheme } from "next-themes"
-import { Button } from "#/ui/ui/button"
+import { Button } from "#/ui/shad-ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "#/ui/ui/dropdown-menu"
+} from "#/ui/shad-ui/dropdown-menu"
 import {usePathname, useRouter} from 'next-intl/client'
 import {useTranslations} from 'next-intl'
 

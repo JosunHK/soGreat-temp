@@ -14,5 +14,12 @@
     "login": "Register/Login",
     "user":"User",
     "help":"Help"
+  },
+  "Search":{
+    "activity" : "Activity",
+    "service" : "Service",
+    "unit" : "Unit",
+    "organization" : "Organization",
+    "search-placeholder" : "Search"
   }
 }

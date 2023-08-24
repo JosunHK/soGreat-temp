@@ -1,10 +1,6 @@
 import {NextIntlClientProvider} from 'next-intl';
 import '#/styles/globals.css';
-import { AddressBar } from '#/ui/address-bar';
-import Byline from '#/ui/byline';
-import { GlobalNav } from '#/ui/global-nav';
-import { Metadata } from 'next';
-import { TopNav } from '#/ui/top-nav';
+import { TopNav } from '#/ui/nav/top-nav';
 import {notFound} from 'next/navigation';
 import { ThemeProvider } from "#/ui/theme-provider"
  

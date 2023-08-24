@@ -1,7 +1,7 @@
 'use client';
 import { GlobalNav } from "./global-nav";
 import { TopBand } from "./top-band";
-import { SearchBand } from "./search-band";
+import { SearchBand } from "../search-band";
 
 export function TopNav(){
     return (

@@ -1,4 +1,4 @@
-import { demos } from '#/lib/nav';
+import { demos } from '#/lib/menu';
 import Link from 'next/link';
 
 export default function Page() {

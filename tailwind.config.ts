@@ -30,6 +30,22 @@ export default {
         )}, 50px, ${theme('colors.gray.800')} 50%)`,
       }),
       keyframes: ({ theme }) => ({
+        'sneak-in':{
+          '0%':{
+            transform: 'translateX(100%)',
+          },
+          '100%':{
+            transform: 'translateX(0%)',
+          }
+        },
+        'sneak-out':{
+          '0%':{
+            transform: 'translateX(0%)',
+          },
+          '100%':{
+            transform: 'translateX(100%)',
+          }
+        },
         rerender: {
           '0%': {
             ['border-color']: theme('colors.vercel.pink'),
