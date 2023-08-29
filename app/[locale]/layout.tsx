@@ -1,12 +1,11 @@
-import {NextIntlClientProvider} from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
 import '#/styles/globals.css';
 import { TopNav } from '#/ui/nav/top-nav';
-import {notFound} from 'next/navigation';
+import { notFound } from 'next/navigation';
 import { ThemeProvider } from "#/ui/theme-provider"
  
- 
 export function generateStaticParams() {
-  return [{locale: 'en'}, {locale: 'de'}];
+  return [{locale: 'en'}, {locale: 'tc'}];
 }
  
 export default async function LocaleLayout({children, params: {locale}} : {children: any, params : any}) {
@@ -23,7 +22,10 @@ export default async function LocaleLayout({children, params: {locale}} : {child
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <TopNav />
-          {/* {children} */}
+          {/* child from the original template, for testing only*/}
+          <div className="w-[50%]">
+            {children}
+          </div>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

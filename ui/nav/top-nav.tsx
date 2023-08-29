@@ -6,7 +6,7 @@ import { SearchBand } from "../search-band";
 export function TopNav(){
     return (
         <>
-            <div className="w-vw h-72 relative z-10">
+            <div className="w-vw h-72 z-10 sticky">
                 <TopBand/>
                 <GlobalNav/>
                 <SearchBand/>

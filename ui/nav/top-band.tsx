@@ -16,7 +16,7 @@ export function TopBand() {
                     <Image src={unitLogo} className="h-full w-auto bg-contain" alt="logo"/>
                 </div>
                 {
-                    isBigScreen 
+                    isBigScreen
                     ? <NormalNav/>
                     : <MobileNav/> 
                 }
